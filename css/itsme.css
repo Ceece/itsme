@@ -1,0 +1,39 @@
+body {
+	padding-top: 50px;
+}
+
+nav a {
+	color: #ffffff;
+}
+
+header, section, footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header img {
+	margin: 20px auto;
+	border-radius: 100%;
+}
+
+header .intro {
+	text-align: center;
+	font-size: 32px;
+}
+
+header .intro .title {
+	font-size: 50px;
+}
+
+#portfolio .portfolio-img {
+	margin: 0 0 30px;
+}
+
+.bg-primary {
+	background-color: #039BE5;
+}
+
+footer {
+	background-color: #01579B;
+	color: #ffffff;
+}
