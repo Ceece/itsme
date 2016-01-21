@@ -2,8 +2,23 @@ body {
 	padding-top: 50px;
 }
 
-nav a {
+nav a,
+nav a:hover,
+nav a:focus {
 	color: #ffffff;
+}
+
+.bg-primary {
+	background-color: #039BE5;
+}
+
+nav, footer {
+	background-color: #01579B;
+	color: #ffffff;
+}
+
+nav .icon-bar {
+    background-color: #ffffff;
 }
 
 header, section, footer {
@@ -27,13 +42,28 @@ header .intro .title {
 
 #portfolio .portfolio-img {
 	margin: 0 0 30px;
+	cursor: pointer;
 }
 
-.bg-primary {
-	background-color: #039BE5;
-}
+/**
+ * Modal with blur effect like iOS from
+ * http://bootsnipp.com/snippets/featured/modal-with-blur-effect-like-ios
+ */
 
-footer {
-	background-color: #01579B;
-	color: #ffffff;
+body.modal-open > header,
+body.modal-open > footer,
+body.modal-open > section,
+body.modal-open > nav {
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+  
+.modal-backdrop {background: #f7f7f7;}
+
+.close {
+    font-size: 50px;
+    display:block;
 }
