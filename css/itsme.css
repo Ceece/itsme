@@ -1,5 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
 body {
 	padding-top: 50px;
+	font-family: Lato;
+	font-size: 1.5em;
 }
 
 nav a,
@@ -33,22 +37,17 @@ header img {
 
 header .intro {
 	text-align: center;
-	font-size: 32px;
+	font-size: 2em;
 }
 
 header .intro .title {
-	font-size: 50px;
+	font-size: 1.5em;
 }
 
 #portfolio .portfolio-img {
 	margin: 0 0 30px;
 	cursor: pointer;
 }
-
-/**
- * Modal with blur effect like iOS from
- * http://bootsnipp.com/snippets/featured/modal-with-blur-effect-like-ios
- */
 
 body.modal-open > header,
 body.modal-open > footer,
