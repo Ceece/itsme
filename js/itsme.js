@@ -1,4 +1,4 @@
-$('nav a').click(function(){
+$('a').click(function(){
 	var href = $(this).attr('href');
 	if ( href.match(/#/g) ) {
 		var offset = href == "#" ? 0 : $( href ).offset().top;
