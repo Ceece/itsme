@@ -5,8 +5,9 @@ $('nav a').click(function(){
 		$('html, body').animate({
 			scrollTop: offset
 		}, 500);
+		return false;
 	}
-	return false;
+	return true;
 });
 
 $('.portfolio-img').click(function(event) {
