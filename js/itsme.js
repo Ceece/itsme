@@ -9,10 +9,3 @@ $('nav a').click(function(){
 	}
 	return true;
 });
-
-$('.portfolio-img').click(function(event) {
-	/* Open porfolio modal */
-	var nth = $(this).attr('nth');
-	var modalSelector = '.modal[nth=' + nth + ']';
-	$(modalSelector).modal();
-});

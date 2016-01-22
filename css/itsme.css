@@ -13,11 +13,11 @@ nav a:focus {
 }
 
 .bg-primary {
-	background-color: #039BE5;
+	background-color: #0D47A1;
 }
 
 nav, footer {
-	background-color: #01579B;
+	background-color: #1A237E;
 	color: #ffffff;
 }
 
@@ -65,4 +65,23 @@ body.modal-open > nav {
 .close {
     font-size: 50px;
     display:block;
+}
+
+.progress {
+    position: relative;
+	height: 25px;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 800;
+	padding: 3px 30px 2px 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 800;
+	padding: 3px 10px 2px;
 }
