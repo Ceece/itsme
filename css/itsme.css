@@ -1,3 +1,7 @@
+/**
+ * Font Family
+ */
+
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 body {
@@ -6,14 +10,13 @@ body {
 	font-size: 1.5em;
 }
 
-nav a,
-nav a:hover,
-nav a:focus {
-	color: #ffffff;
-}
+/**
+ * Color
+ */
 
 .bg-primary {
 	background-color: #0D47A1;
+	color: #ffffff;
 }
 
 nav, footer {
@@ -21,9 +24,23 @@ nav, footer {
 	color: #ffffff;
 }
 
+/**
+ * Navbar
+ */
+
+nav a,
+nav a:hover,
+nav a:focus {
+	color: #ffffff;
+}
+
 nav .icon-bar {
     background-color: #ffffff;
 }
+
+/**
+ * Body
+ */
 
 header, section, footer {
 	padding-top: 50px;
@@ -49,6 +66,10 @@ header .intro .title {
 	cursor: pointer;
 }
 
+/**
+ * Modal
+ */
+
 body.modal-open > header,
 body.modal-open > footer,
 body.modal-open > section,
@@ -67,6 +88,10 @@ body.modal-open > nav {
     display:block;
 }
 
+/**
+ * Progress Bar
+ */
+
 .progress {
     position: relative;
 	height: 25px;
@@ -84,7 +109,12 @@ body.modal-open > nav {
 	right: 0px;
 	font-weight: 800;
 	padding: 3px 10px 2px;
+    color: #000;
 }
+
+/**
+ * Social Icons
+ */
 
 .social-icons .fa {
 	width: 50px;
