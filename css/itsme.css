@@ -66,6 +66,11 @@ header .intro .title {
 	cursor: pointer;
 }
 
+.section-header {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
 /**
  * Modal
  */
