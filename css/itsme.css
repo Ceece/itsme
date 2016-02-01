@@ -2,7 +2,7 @@
  * Font Family
  */
 
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lato|Roboto);
 
 body {
 	padding-top: 50px;
@@ -15,13 +15,18 @@ body {
  */
 
 .bg-primary {
-	background-color: #0D47A1;
+	background-color: #0277BD;
 	color: #ffffff;
 }
 
 nav, footer {
-	background-color: #1A237E;
+	background-color: #01579B;
 	color: #ffffff;
+}
+
+section.bg-primary a {
+	color: #ddd;
+	font-weight: bold;
 }
 
 /**
@@ -50,6 +55,7 @@ header, section, footer {
 header img {
 	margin: 20px auto;
 	border-radius: 100%;
+	width: 250px;
 }
 
 header .intro {
@@ -165,3 +171,12 @@ body.modal-open > nav {
 .social-icons .fa-windows{background-color:#12B6F3;}
 .social-icons .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;} 
 .social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
+.social-icons .fa-line {
+    background-color: #00c300;
+    font-family: Roboto;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.social-icons .fa-line:before {
+    content: "LINE";
+}
