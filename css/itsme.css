@@ -14,13 +14,8 @@ body {
  * Color
  */
 
-.bg-primary {
-    background-color: #78909C;
-    color: #ffffff;
-}
-
 nav, footer {
-    background-color: #546E7A;
+    background-color: #01579B;
     color: #ffffff;
 }
 
@@ -171,6 +166,10 @@ body.modal-open > nav {
 .social-icons .fa-windows{background-color:#12B6F3;}
 .social-icons .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;} 
 .social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
+
+/**
+ * Custom Icons
+ */
 .social-icons .fa-line {
     background-color: #00c300;
     font-family: Roboto;
