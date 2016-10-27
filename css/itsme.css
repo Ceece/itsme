@@ -5,9 +5,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato|Roboto);
 
 body {
-	padding-top: 50px;
-	font-family: Lato;
-	font-size: 1.5em;
+    padding-top: 50px;
+    font-family: Lato;
+    font-size: 1.5em;
 }
 
 /**
@@ -15,18 +15,18 @@ body {
  */
 
 .bg-primary {
-	background-color: #0277BD;
-	color: #ffffff;
+    background-color: #78909C;
+    color: #ffffff;
 }
 
 nav, footer {
-	background-color: #01579B;
-	color: #ffffff;
+    background-color: #546E7A;
+    color: #ffffff;
 }
 
 section.bg-primary a {
-	color: #ddd;
-	font-weight: bold;
+    color: #ddd;
+    font-weight: bold;
 }
 
 /**
@@ -36,7 +36,7 @@ section.bg-primary a {
 nav a,
 nav a:hover,
 nav a:focus {
-	color: #ffffff;
+    color: #ffffff;
 }
 
 nav .icon-bar {
@@ -48,33 +48,33 @@ nav .icon-bar {
  */
 
 header, section, footer {
-	padding-top: 50px;
-	padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-#profile-picture {
-	margin: 20px auto;
-	border-radius: 100%;
-	width: 250px;
+header img {
+    margin: 20px auto;
+    border-radius: 100%;
+    width: 250px;
 }
 
 header .intro {
-	text-align: center;
-	font-size: 2em;
+    text-align: center;
+    font-size: 2em;
 }
 
 header .intro .title {
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 #portfolio .portfolio-img {
-	margin: 0 0 30px;
-	cursor: pointer;
+    margin: 0 0 30px;
+    cursor: pointer;
 }
 
 .section-header {
-	text-align: center;
-	margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 /**
@@ -105,21 +105,21 @@ body.modal-open > nav {
 
 .progress {
     position: relative;
-	height: 25px;
+    height: 25px;
 }
 .progress > .progress-type {
-	position: absolute;
-	left: 0px;
-	font-weight: 800;
-	padding: 3px 30px 2px 10px;
-	color: rgb(255, 255, 255);
-	background-color: rgba(25, 25, 25, 0.2);
+    position: absolute;
+    left: 0px;
+    font-weight: 800;
+    padding: 3px 30px 2px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(25, 25, 25, 0.2);
 }
 .progress > .progress-completed {
-	position: absolute;
-	right: 0px;
-	font-weight: 800;
-	padding: 3px 10px 2px;
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
     color: #000;
 }
 
@@ -128,14 +128,14 @@ body.modal-open > nav {
  */
 
 .social-icons .fa {
-	width: 50px;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	font-size: 1.8em;
-	background-color: #000;
-	border-radius: 50%;
-	color: #FFF;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.8em;
+    background-color: #000;
+    border-radius: 50%;
+    color: #FFF;
 }
 
 .social-icons .fa-adn{background-color:#504e54;} 
@@ -176,7 +176,22 @@ body.modal-open > nav {
     font-family: Roboto;
     font-size: 1.2em;
     font-weight: bold;
+    line-height: 57px;
 }
 .social-icons .fa-line:before {
     content: "LINE";
+}
+
+.social-icons .fa-freecodecamp {
+    background-color: darkgreen;
+}
+
+.social-icons .fa-freecodecamp:after {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    content: "";
+    background: url(./../images/freecodecamp.png) no-repeat 0 0;
+    background-size: 100%;
+    background-position-y: 12px;
 }
